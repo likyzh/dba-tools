@@ -161,7 +161,7 @@ Script:
     orz			MySQL Real-time monitoring				# 监控mysql的脚本调用
 ```
 
-**举个栗子:** 
+**举个例子:** 
 
 你想查看改机器上所有实例的binlog_format，执行`dba exe all 'show variables like "binlog_format"'`
 
