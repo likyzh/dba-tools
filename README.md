@@ -54,7 +54,7 @@ Options:
 
 ```mysql
 [dba@db-dg150-198 dba-tools]$ dbs
- IP: 10.200.150.198       Command: mysql      Date: 2018-05-11 12:51:23
+ IP: 127.0.0.1       Command: mysql      Date: 2018-05-11 12:51:23
 +------+--------------------+-----------------------------+------------------+---------------------+--------------+
 | Port | Vesion             | Defaults_File               | Datadir          | Master_Host_Port    | IO|SQL|Dealy |
 +------+--------------------+-----------------------------+------------------+---------------------+--------------+
@@ -64,7 +64,7 @@ Options:
 | 6306 | 5.7.21-log         | /home/dba/mysqlnode/my4.cnf | /data3/nodedata4 | 10.200.150.199:8306 | Yes|Yes|0    |
 | 8306 | 5.7.21-log         | /home/dba/mysqlnode/my5.cnf | /data2/nodedata5 |                     |              |
 +------+--------------------+-----------------------------+------------------+---------------------+--------------+
- IP: 10.200.150.198       Command: mongo      Date: 2018-05-11 12:51:23
+ IP: 127.0.0.1       Command: mongo      Date: 2018-05-11 12:51:23
 +-------+--------+-------------------------------------------------------+
 | Port  | Server | Config_file                                           |
 +-------+--------+-------------------------------------------------------+
@@ -98,7 +98,7 @@ owners.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-(root@10.200.150.198:4306) [(none)]>
+(root@127.0.0.1:4306) [(none)]>
 ```
 
 连接mongo详细如下: 
@@ -106,7 +106,7 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 ```mysql
 [dba@db-dg150-198 dba-tools]$ go 32001
 MongoDB shell version: 3.2.5
-connecting to: 10.200.150.198:32001/admin
+connecting to: 127.0.0.1:32001/admin
 Server has startup warnings:
 2018-04-08T10:38:29.308+0800 I CONTROL  [initandlisten]
 2018-04-08T10:38:29.308+0800 I CONTROL  [initandlisten] ** WARNING: You are running on a NUMA machine.
