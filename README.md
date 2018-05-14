@@ -59,9 +59,9 @@ Options:
 | Port | Vesion             | Defaults_File               | Datadir          | Master_Host_Port    | IO|SQL|Dealy |
 +------+--------------------+-----------------------------+------------------+---------------------+--------------+
 | 3306 | 5.5.23-rel25.3-log | /home/dba/mysqlnode/my1.cnf | /data1/nodedata1 |                     |              |
-| 4306 | 5.7.21-log         | /home/dba/mysqlnode/my2.cnf | /data2/nodedata2 | 10.200.150.198:8306 | Yes|Yes|0    |
+| 4306 | 5.7.21-log         | /home/dba/mysqlnode/my2.cnf | /data2/nodedata2 | 127.0.0.2:8306 | Yes|Yes|0    |
 | 5306 | 5.7.21-log         | /home/dba/mysqlnode/my3.cnf | /data2/nodedata3 |                     |              |
-| 6306 | 5.7.21-log         | /home/dba/mysqlnode/my4.cnf | /data3/nodedata4 | 10.200.150.199:8306 | Yes|Yes|0    |
+| 6306 | 5.7.21-log         | /home/dba/mysqlnode/my4.cnf | /data3/nodedata4 | 127.0.0.2:8306 | Yes|Yes|0    |
 | 8306 | 5.7.21-log         | /home/dba/mysqlnode/my5.cnf | /data2/nodedata5 |                     |              |
 +------+--------------------+-----------------------------+------------------+---------------------+--------------+
  IP: 127.0.0.1       Command: mongo      Date: 2018-05-11 12:51:23
